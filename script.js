@@ -14,8 +14,13 @@ const string = "Hello WoRld";
 // }
 // console.log(multiply())
 
-function capitalize(string){
-    let capitalized=string[0].toUpperCase()+ string.slice(1);
-    return (capitalized);
-}
-console.log(capitalize(string));
+// function capitalize(string){
+//     let capitalized=string[0].toUpperCase()+ string.slice(1);
+//     return (capitalized);
+// }
+// console.log(capitalize(string));
+
+// function lastLetter(string){
+//     return string.slice(-1);
+// }
+// console.log(lastLetter(string));
