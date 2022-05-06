@@ -1,7 +1,7 @@
 
 const number = Math.floor(Math.random()*100+1);
 const number2 = Math.floor(Math.random()*100+1);
-const string = "Hello World";
+const string = "Hello WoRld";
 // add7
 // function add7(){
     
@@ -14,8 +14,8 @@ const string = "Hello World";
 // }
 // console.log(multiply())
 
-// function capitalize(string){
-//     let capitalized=string.toUpperCase();
-//     return (capitalized);
-// }
-// capitalize(string);
+function capitalize(string){
+    let capitalized=string[0].toUpperCase()+ string.slice(1);
+    return (capitalized);
+}
+console.log(capitalize(string));
